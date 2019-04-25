@@ -1,0 +1,43 @@
+/* report links popups */
+#report_popup {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 200;
+    width: 200px;
+    min-height: 60px;
+    border: 2px solid #9bcb00;
+    box-shadow: 2px 2px 6px #bbb;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    border-radius: 3px;
+}
+
+#report_popup h5 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 7px;
+    background-color: #9bcb00;
+    color: #fff;
+    font-size: 12px;
+}
+
+#report_popup p {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#report_popup a {
+    display: block;
+    margin: 0;
+}
+
+#report_popup a:hover {
+    background-color: #edf3fe;
+    text-decoration: none;
+}
